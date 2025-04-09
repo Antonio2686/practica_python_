@@ -1,0 +1,11 @@
+def dividir_numeros():
+    try:
+        numerador = float(input("Ingresa el numerador: "))
+        divisor = float(input("Ingresa el divisor: "))
+        resultado = numerador / divisor
+        print(f"El resultado de la división es: {resultado}")
+    except ZeroDivisionError:
+        print("Error: No se puede dividir entre cero.")
+
+# Llama a la función para ejecutarla
+dividir_numeros()
