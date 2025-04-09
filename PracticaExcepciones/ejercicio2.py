@@ -1,3 +1,5 @@
+#Escribe un programa que intente sumar un número y una cadena. Si se produce un error
+# de tipo, captura la excepción TypeError y muestra un mensaje de error al usuario
 
 dato1 = input("Por favor, ingrese un numero: ")
 dato2 = input("Por favor, ingrese una palabra: ")
